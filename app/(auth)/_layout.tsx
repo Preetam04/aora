@@ -4,7 +4,6 @@ import { Stack } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 
 const AuthLayout = () => {
-  // 1.29
   return (
     <>
       <Stack screenOptions={{}}>
@@ -20,12 +19,10 @@ const AuthLayout = () => {
             headerShown: false,
           }}
         />
-
-        <StatusBar backgroundColor="#161622" style="light" />
       </Stack>
+      <StatusBar backgroundColor="#161622" style="light" />
     </>
   );
 };
 
 export default AuthLayout;
-// 1.29
