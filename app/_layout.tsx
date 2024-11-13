@@ -37,7 +37,11 @@ export default function RootLayout() {
 
   return (
     <GlobalProvider>
-      <Stack>
+      <Stack
+        screenOptions={{
+          headerShown: false,
+        }}
+      >
         <Stack.Screen
           name="index"
           options={{
@@ -56,12 +60,7 @@ export default function RootLayout() {
             headerShown: false,
           }}
         />
-        {/* <Stack.Screen
-        name="/search/[query]"
-        options={{
-          headerShown: false,
-          }}
-          /> */}
+        {/* <Stack.Screen name="search/[query]" options={{ headerShown: true }} /> */}
       </Stack>
     </GlobalProvider>
   );

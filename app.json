@@ -20,7 +20,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.preetam.aora"
+      "package": "com.preetam.aora",
+      "permissions": ["INTERNET"]
     },
     "web": {
       "bundler": "metro",
